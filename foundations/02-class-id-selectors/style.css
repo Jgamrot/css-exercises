@@ -1,0 +1,17 @@
+.odd{
+background-color: pink;
+}
+.cooler{
+    font-size: x-large;
+}
+#one{
+color: blue;
+font-size: xx-large;
+font-weight: 600;
+}
+
+#another{
+background-color: lightgreen;
+font-size: large;
+font-weight: bolder;
+}
