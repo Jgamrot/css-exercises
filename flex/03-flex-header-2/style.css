@@ -2,7 +2,11 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+/* *{
+  border: 1px red solid;
+} commenting this out was useful when doing the project*/
+
+  body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
@@ -12,7 +16,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 16px;
+  align-items: center;
+
 }
+
 
 .profile-image {
   background: rebeccapurple;
@@ -27,6 +38,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 0px 10px;
 }
 
 button {
@@ -41,8 +53,22 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  flex-shrink: 0;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0px;
+  gap: 8px;
+}
+
+.right-side{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  flex-shrink: 0;
+  gap: 8px;
+
 }
